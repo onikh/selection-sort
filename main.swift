@@ -5,7 +5,7 @@ var line : String?
 repeat {
     line = readLine()
     if line != nil {
-        array.append(line!.lowercased())
+        array.append(line!)
     }
 } while line != nil
 
